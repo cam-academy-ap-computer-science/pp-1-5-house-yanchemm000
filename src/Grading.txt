@@ -1,0 +1,23 @@
+Graded 9/18 by Mark Congdon
+
+Total Score:		25/25
+
+Compiles and Runs:	15/15
+Correct Output:		6/6
+Consistent Style:	2/2
+Efficiency:			2/2
+
+Good work!  Your program is very clean and well-organized.
+
+I loved how you printed the song title at the beginning.
+
+Great job with your comments, too.  Well done.
+
+There is one efficiency that could be added.  Notice that
+every time you call thatLay(), you call jackHouse() immediately afterwards.
+Therefore, you could add thatLay() at the end of your jackHouse() method, and
+remove it from elsewhere.  Then, you could do the same thing
+with thatMalt() (add thatLay() at the end of it), etc.  You could end
+up with a much shorter program that way.  But the way you did it is so
+well organized, with such clear structure, it's extremely well done.
+
